@@ -52,7 +52,7 @@ li span {
 
 .logo {
     display: block;
-    margin: 85px auto 0px auto;
+    margin: 7% auto auto auto;
     width: 280px;
     height: 90px;
 }
@@ -72,6 +72,59 @@ input#search {
     background-size: 20px;
     background-position: 15px 9px;
 }
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons button {
+    margin: 5px 15px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.03);
+    border: none;
+    color:rgba(0, 0, 0, 0.7)
+}
+
+.footer-container {
+    background-color: #f2f2f2;
+    position: absolute;
+    width: 100%;
+    height: 91px;
+    bottom: 0px;
+}
+
+.carbon {
+    display: flex;
+    justify-content: center;
+}
+
+.carbon p {
+    margin: 13px 15px 0 0;
+    color: rgba(0, 0, 0, 0.55);
+}
+
+.carbon img {
+    width: 10px;
+    margin: 13px 5px 0 0;
+}
+
+.footer-links ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.footer-links ul li {
+    margin: 30px 30px 0 5px;
+    color: rgba(0, 0, 0, 0.55);
+}
+
+.footer-links ul li:nth-child(3) {
+    padding: 0 45px 0 0;
+}
+
+
 
 
 
